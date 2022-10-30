@@ -1,0 +1,17 @@
+[package]
+name = "peeriot_test"
+version = "0.1.0"
+edition = "2021"
+features = ["full"] 
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rand = "0.8.3"
+round = "0.1.0"
+regex = "1"
+console = "0.15.2"
+serde =  { version = "1.0", features = ["derive"] }
+serde_json = "1"
+quote = "1.0.7"
+syn = { version="1.0.40",features = ["full"] } 
+json = "0.12.4"
